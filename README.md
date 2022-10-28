@@ -28,6 +28,7 @@ class About extends Me
             Php::class,
             Laravel::class,
             GoogleCloud::class,
+            Python::class,
             MySQL::class
         ];
     }
@@ -36,16 +37,15 @@ class About extends Me
     {
         return [
             Java::class,
-            Python::class,
-            JavaScript::class
+            JavaScript::class,
+            Node::class,
+            Typescript::class,
         ];
     }
 
     public function getLearningSkills(): array
     {
         return [
-            Node::class,
-            Typescript::class,
             ReactNative::class,
             Kotlin::class
         ];
