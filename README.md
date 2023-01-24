@@ -82,12 +82,3 @@ class About extends Me
 - 👨‍💻 **Support Manager / IT / Network Engineer JR**\
 📆 2020 - 2021\
 📍 **Oesteline** - Toledo/PR, Brazil
-
-- 👨‍💻 **Cellphone Technician**\
-📆 2020- 2021\
-📍 **Junkercell** - Toledo/PR, Brazil
-
-
-- 👨‍💻 **IT / Administrative**\
-📆 2014 - 2016\
-📍 **Prefeitura de Toledo** - Toledo/PR, Brazil
