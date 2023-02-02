@@ -36,7 +36,6 @@ class About extends Me
     public function getSkills(): array
     {
         return [
-            Java::class,
             JavaScript::class,
             Node::class,
             Typescript::class,
@@ -46,8 +45,7 @@ class About extends Me
     public function getLearningSkills(): array
     {
         return [
-            ReactNative::class,
-            Kotlin::class
+            NestJS::class
         ];
     }
 
@@ -66,14 +64,14 @@ class About extends Me
 ## Education
 
 - 📖 **System Analysis and Development**\
-📆 2020 - 2023\
-📍 **UNIPAR - Universidade Paranaesne** - Toledo/PR, Brazil
+📆 2023 - 2025\
+📍 **ESTACIO - Universidade Paranaesne** - Toledo/PR, Brazil
 
 ## Experience
   
    - 👨‍💻 **PHP Developer(Laravel)**\
 📆 2022 - moment\
-📍 **Solluti** - Remote
+📍 **Sixchains** - Remote
   
   - 👨‍💻 **PHP Developer(Laravel)**\
 📆 2021 - 2022\
