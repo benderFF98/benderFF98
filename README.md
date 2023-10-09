@@ -30,7 +30,7 @@ class About extends Me
             GoogleCloud::class,
             Python::class,
             SQL::class,
-            MongoDB::class
+            NoSQL::class
         ];
     }
 
