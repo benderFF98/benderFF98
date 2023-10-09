@@ -29,23 +29,25 @@ class About extends Me
             Laravel::class,
             GoogleCloud::class,
             Python::class,
-            MySQL::class
+            SQL::class,
+            MongoDB::class
         ];
     }
 
     public function getSkills(): array
     {
         return [
-            JavaScript::class,
-            Node::class,
-            Typescript::class,
+            Kubernetes::class,
+            DataAnalysis::class,
+            Javascript::class,
         ];
     }
 
     public function getLearningSkills(): array
     {
         return [
-            NestJS::class
+            Go::class,
+            ApiSecurity:class
         ];
     }
 
