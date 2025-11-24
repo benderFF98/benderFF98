@@ -1,7 +1,8 @@
 <h1 align='center'>
-  Hello, I'm Felipe Bender :boy: <a href="https://www.linkedin.com/in/benderfelipe/">
+  Hello, I'm Felipe Bender 👨‍💻  
+  <a href="https://www.linkedin.com/in/benderfelipe/">
     <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>&nbsp;&nbsp;
+  </a>
 </h1>
 
 ```php
@@ -11,13 +12,12 @@ namespace FelipeBender;
 
 class About extends Me
 {
-    //So, I lost my old account due to some security issues this is the new one :)
     public function getCurrentWorkplace(): array
     {
         return [
             'workplace' => [
-                'company' => 'Sixchains',
-                'position' => 'Backend Developer'         
+                'company'  => 'SSYS Sistemas',
+                'position' => 'Tech Lead'
             ]
         ];
     }
@@ -25,21 +25,28 @@ class About extends Me
     public function getBestSkills(): array
     {
         return [
-            Php::class,
-            Laravel::class,
-            GoogleCloud::class,
             Python::class,
+            PHP::class,
+            Javascript::class,
+            Kotlin::class,
             SQL::class,
-            NoSQL::class
+            NoSQL::class,
+            Cloud::class,         // AWS / GCP
+            Kubernetes::class
         ];
     }
 
     public function getSkills(): array
     {
         return [
-            Kubernetes::class,
-            DataAnalysis::class,
-            Javascript::class,
+            Laravel::class,
+            Django::class,
+            NodeJS::class,
+            VueJS::class,
+            DataPipelines::class,
+            CICD::class,
+            Docker::class,
+            Microservices::class
         ];
     }
 
@@ -47,38 +54,13 @@ class About extends Me
     {
         return [
             Go::class,
-            ApiSecurity:class
+            AILLMs::class,        // AI, LLMs, ML research
+            AdvancedCloud::class  // Infra scaling, K8s, Helm
         ];
     }
 
     public function getFutureGoal(): string
     {
-        return 'Do some code related research on academic levels';
+        return 'Pursue a Master’s degree in Computer Science focusing on Artificial Intelligence research.';
     }
 }
-```
-
-
-<details>
-  <summary>📃 Resume</summary>
-
-
-## Education
-
-- 📖 **System Analysis and Development**\
-📆 2023 - 2025\
-📍 **ESTACIO - Universidade Paranaesne** - Toledo/PR, Brazil
-
-## Experience
-  
-   - 👨‍💻 **PHP Developer(Laravel)**\
-📆 2022 - moment\
-📍 **Sixchains** - Remote
-  
-  - 👨‍💻 **PHP Developer(Laravel)**\
-📆 2021 - 2022\
-📍 **Manfing** - Toledo/PR, Brazil
-
-- 👨‍💻 **Support Manager / IT / Network Engineer JR**\
-📆 2020 - 2021\
-📍 **Oesteline** - Toledo/PR, Brazil
